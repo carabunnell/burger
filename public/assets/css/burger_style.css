@@ -1,0 +1,54 @@
+body {
+    background-color: #ff9900;
+  }
+  .jumbotron {
+    background-color: transparent;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  li {
+    padding: 10px 10px 20px 10px;
+    margin: 5px;
+    background: white;
+    list-style: none;
+    font-family: monospace;
+    border: 1px solid red;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .delete-burger {
+    background-color: grey;
+    float: right;
+    color: white;
+  }
+  
+  .change-devoured {
+    background-color: rgb(0, 238, 255);
+    float: right;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
+  .form-total {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .imagefluid {
+    height: 100px;
+    width: auto;
+  }
