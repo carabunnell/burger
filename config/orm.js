@@ -25,11 +25,12 @@ function objToSql(ob) {
     var value = ob[key];
     // check to skip hidden properties
     if (Object.hasOwnProperty.call(ob, key)) {
-      // if string with spaces, add quotations (Lana Del Grey => 'Lana Del Grey')
+      // if string with spaces, add quotations (example => 'example')
       if (typeof value === "string" && value.indexOf(" ") >= 0) {
         value = "'" + value + "'";
+        console.log(value);
       }
-      // e.g. {name: 'Lana Del Grey'} => ["name='Lana Del Grey'"]
+      
       // e.g. {devoured: true} => ["devoured=true"]
       arr.push(key + "=" + value);
     }
