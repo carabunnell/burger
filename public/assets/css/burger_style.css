@@ -9,14 +9,14 @@ body {
     color: red;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-  li {
+  /* li {
     padding: 10px 10px 20px 10px;
     margin: 5px;
     background: white;
     list-style: none;
     font-family: monospace;
     border: 1px solid red;
-  }
+  } */
   
   .label {
     font-weight: bold;
@@ -52,3 +52,22 @@ body {
     height: 100px;
     width: auto;
   }
+
+  .ready-to-eat-items {
+    padding: 10px 10px 20px 10px;
+    margin: 5px;
+    background: white;
+    list-style: none;
+    font-family: monospace;
+    border: 1px solid red;
+  }
+  .devoured-items {
+    padding: 10px 10px 20px 10px;
+    margin: 5px;
+    background: rgb(110, 109, 109);
+    color: rgb(59, 56, 56);
+    list-style: none;
+    font-family: monospace;
+    border: 1px solid red;
+  }
+  
