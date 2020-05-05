@@ -1,7 +1,7 @@
 //require mysql, handlebars, 
 var express = require("express");
 
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 8090;
 
 var app = express();
 
@@ -26,5 +26,5 @@ app.use(routes);
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
   // Log (server-side) when our server has started
-  console.log("Server listening on: http://localhost:" + PORT);
+  console.log("Server listening on port: " + PORT);
 });
